@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace InitPrototype.DataAccess.Models
 {
-    public class ContestantAccount
+    public class ContestantAccount : BusinessEntity
     {
         public int ContestantAccountId { get; set; }
         public User User { get; set; }
