@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using InitPrototype.DataAccess.Data.Concrete;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace InitPrototype.API.Controllers
 {
@@ -10,11 +12,20 @@ namespace InitPrototype.API.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        private readonly DataContext _context;
+
+        public ValuesController(DataContext context)
+        {
+            _context = context;
+        }
+
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public async Task<IActionResult> Get()
         {
-            return new string[] { "Hello", "LAMA" };
+            var values = await _context.Values.ToListAsync();
+
+            return Ok(values);
         }
 
         // GET api/values/5

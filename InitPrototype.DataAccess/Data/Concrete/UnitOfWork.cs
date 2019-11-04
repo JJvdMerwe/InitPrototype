@@ -10,15 +10,17 @@ namespace InitPrototype.DataAccess.Data.Concrete
 
         public IGenericRepository<ContestantAccount> ContestantAccountRepository => throw new System.NotImplementedException();
 
+        public IGenericRepository<Entry> EntryRepository => throw new System.NotImplementedException();
+
         public IGenericRepository<Phase> PhaseRepository => throw new System.NotImplementedException();
 
-        public IGenericRepository<Entry> EntryRepository => throw new System.NotImplementedException();
+        public IGenericRepository<Provider> ProviderRepository => throw new System.NotImplementedException();
 
         public IGenericRepository<User> UserRepository => throw new System.NotImplementedException();
 
         public IGenericRepository<UserType> UserTypeRepository => throw new System.NotImplementedException();
 
-        public IGenericRepository<Provider> ProviderRepository => throw new System.NotImplementedException();
+        public IGenericRepository<Value> ValueRepository => throw new System.NotImplementedException();
 
         public void Commit()
         {

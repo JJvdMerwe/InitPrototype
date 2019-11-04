@@ -1,4 +1,4 @@
-namespace InitPrototype.DataAccess.Models
+namespace InitPrototype.DataAccess.Models.BusinessEntities
 {
     public class Contestant
     {

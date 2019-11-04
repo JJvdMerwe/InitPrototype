@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using InitPrototype.DataAccess.Models.Generic;
 
 namespace InitPrototype.DataAccess.Models
