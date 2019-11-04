@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/bf9ae186-a850-4c74-bece-730603867129/resourceGroups/InitPrototype/providers/Microsoft.Web/sites/init-prototype",
+    "appService.deploySubpath": "InitPrototype.API/publish"
+}
