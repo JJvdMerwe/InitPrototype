@@ -1,8 +1,0 @@
-/home/jordaan/Workspace/Source/Now/InitPrototype/InitPrototype.DataAccess/obj/Debug/netstandard2.1/InitPrototype.DataAccess.csprojAssemblyReference.cache
-/home/jordaan/Workspace/Source/Now/InitPrototype/InitPrototype.DataAccess/obj/Debug/netstandard2.1/InitPrototype.DataAccess.AssemblyInfoInputs.cache
-/home/jordaan/Workspace/Source/Now/InitPrototype/InitPrototype.DataAccess/obj/Debug/netstandard2.1/InitPrototype.DataAccess.AssemblyInfo.cs
-/home/jordaan/Workspace/Source/Now/InitPrototype/InitPrototype.DataAccess/bin/Debug/netstandard2.1/InitPrototype.DataAccess.deps.json
-/home/jordaan/Workspace/Source/Now/InitPrototype/InitPrototype.DataAccess/bin/Debug/netstandard2.1/InitPrototype.DataAccess.dll
-/home/jordaan/Workspace/Source/Now/InitPrototype/InitPrototype.DataAccess/bin/Debug/netstandard2.1/InitPrototype.DataAccess.pdb
-/home/jordaan/Workspace/Source/Now/InitPrototype/InitPrototype.DataAccess/obj/Debug/netstandard2.1/InitPrototype.DataAccess.dll
-/home/jordaan/Workspace/Source/Now/InitPrototype/InitPrototype.DataAccess/obj/Debug/netstandard2.1/InitPrototype.DataAccess.pdb
