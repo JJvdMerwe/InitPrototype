@@ -1,7 +1,7 @@
 using System;
-using InitPrototype.DataAccess.Models.Generic;
+using DataAccess.Models.Generic;
 
-namespace InitPrototype.DataAccess.Models
+namespace DataAccess.Models
 {
     public class Phase : BusinessEntity
     {

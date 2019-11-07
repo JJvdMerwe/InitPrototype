@@ -1,4 +1,4 @@
-namespace InitPrototype.DataAccess.Models.Settings
+namespace DataAccess.Models.Settings
 {
     public class AdministratorSettings
     {

@@ -1,4 +1,4 @@
-namespace InitPrototype.DataAccess.Models
+namespace DataAccess.Models
 {
     public class UserType
     {

@@ -1,8 +1,8 @@
 using System;
 using System.Threading.Tasks;
-using InitPrototype.DataAccess.Models;
+using DataAccess.Models;
 
-namespace InitPrototype.DataAccess.Data.Abstract
+namespace DataAccess.Data.Abstract
 {
     public interface IUnitOfWork : IDisposable
     {

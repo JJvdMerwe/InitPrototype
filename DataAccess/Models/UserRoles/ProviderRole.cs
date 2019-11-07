@@ -1,4 +1,4 @@
-namespace InitPrototype.DataAccess.Models.UserRoles
+namespace DataAccess.Models.UserRoles
 {
     public class ProviderRole
     {

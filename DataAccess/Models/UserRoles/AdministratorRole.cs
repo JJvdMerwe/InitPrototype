@@ -1,6 +1,6 @@
-using InitPrototype.DataAccess.Models.Settings;
+using DataAccess.Models.Settings;
 
-namespace InitPrototype.DataAccess.Models
+namespace DataAccess.Models
 {
     public class AdministratorRole
     {

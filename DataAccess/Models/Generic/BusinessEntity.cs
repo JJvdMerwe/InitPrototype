@@ -1,6 +1,6 @@
 using System;
 
-namespace InitPrototype.DataAccess.Models.Generic
+namespace DataAccess.Models.Generic
 {
     public class BusinessEntity
     {

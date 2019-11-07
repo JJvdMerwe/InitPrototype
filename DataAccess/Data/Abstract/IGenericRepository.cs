@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace InitPrototype.DataAccess.Data.Abstract
+namespace DataAccess.Data.Abstract
 {
     public interface IGenericRepository<T> : IDisposable where T : class
     {

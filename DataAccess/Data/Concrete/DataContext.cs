@@ -1,7 +1,7 @@
-using InitPrototype.DataAccess.Models;
+using DataAccess.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace InitPrototype.DataAccess.Data.Concrete
+namespace DataAccess.Data.Concrete
 {
     public class DataContext : DbContext
     {

@@ -1,8 +1,8 @@
 using System.Threading.Tasks;
-using InitPrototype.DataAccess.Data.Abstract;
-using InitPrototype.DataAccess.Models;
+using DataAccess.Data.Abstract;
+using DataAccess.Models;
 
-namespace InitPrototype.DataAccess.Data.Concrete
+namespace DataAccess.Data.Concrete
 {
     public class UnitOfWork : IUnitOfWork
     {
