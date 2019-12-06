@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DataAccess.Data.Concrete;
+using DataAccess.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Services.Interfaces;
 
 namespace InitPrototype.API.Controllers
 {
@@ -12,18 +14,17 @@ namespace InitPrototype.API.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        private readonly DataContext _context;
-
-        public ValuesController(DataContext context)
+        private readonly IValuesService _valuesService;
+        public ValuesController(IValuesService valuesService)
         {
-            _context = context;
+            _valuesService = valuesService;
         }
 
         // GET api/values
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            var values = await _context.Values.ToListAsync();
+            List<Value> values = await _valuesService.GetAllAsync();
 
             return Ok(values);
         }

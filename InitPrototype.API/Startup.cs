@@ -13,6 +13,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.Extensions.Hosting;
+using DataAccess.Data.Abstract;
+using Services.Interfaces;
+using Services.Implementations;
 
 namespace InitPrototype.API
 {
@@ -31,6 +34,9 @@ namespace InitPrototype.API
             services.AddDbContext<DataContext>((options 
                 => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"), b => b.MigrationsAssembly("InitPrototype.API"))));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IValuesService, ValuesService>(); 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
